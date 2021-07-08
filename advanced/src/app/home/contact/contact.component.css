@@ -1,0 +1,39 @@
+.formation {
+      border: 1px solid;
+    width: 50%;
+    margin: 33px;
+    padding: 11px;
+    background-color: #f5f8f9;
+    border-radius: 10px;
+}
+
+.title {
+  color: lightseagreen;
+}
+
+.formations {
+  display: -webkit-box;
+  margin-right: 130px;
+}
+
+.table-bordered>:not(caption)>*>* {
+ padding: 5px 0 5px 38px;
+ background-color: #F0F8FF;
+}
+
+.menu-button {
+  color: black !important;
+  text-decoration: auto !important;
+}
+
+.active {
+  color: dodgerblue !important;
+}
+
+.btn-primary {
+  margin-left: 55px;
+  margin-top: -106px;
+}
+.message {
+  margin-left: 25px;
+}

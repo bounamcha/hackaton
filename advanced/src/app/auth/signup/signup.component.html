@@ -1,0 +1,27 @@
+<div class="wrapper fadeInDown">
+  <form [formGroup]="register" (ngSubmit)="connect()" id="formContent">
+    <!-- Tabs Titles -->
+
+    <div class="fadeIn first">
+      <img src="../../../assets/téléchargement (1).jpg" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Register Form -->
+    <div>
+      <input type="text" id="login" class="fadeIn second" formControlName="name" placeholder="name">
+
+      <input type="text" id="login" class="fadeIn second" formControlName="username" placeholder="username">
+
+      <input type="text" id="login" class="fadeIn second" formControlName="email" placeholder="email">
+
+      <input type="text" id="password" class="fadeIn third" formControlName="password" placeholder="password">
+
+      <input type="text" id="password" class="fadeIn third" formControlName="cindId" placeholder="adresse">
+
+      <input type="text" id="login" class="fadeIn second" formControlName="role" placeholder="role">
+      <input type="submit" class="fadeIn fourth" [disabled]=" ! register.valid" value="Log In">
+    </div>
+
+
+  </form>
+</div>

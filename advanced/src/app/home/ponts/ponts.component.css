@@ -1,0 +1,23 @@
+
+.description {
+    border: 2px solid;
+    padding: 2px 10px 2px 8px;
+    margin: 86px 447px 0 234px;
+    background-color: #F0F8FF;
+}
+
+.cadeaux {
+  border: 2px solid;
+  margin: 38px 214px 0 874px;
+  padding: 14px 5px 40px 7px;
+  background-color: #F0F8FF;
+}
+
+dl, ol, ul {
+  font-family: math;
+  font-size: 19px;
+}
+
+.btn-primary {
+margin: 40px 0 0 340px;
+}

@@ -1,0 +1,8 @@
+.menu-button {
+  color: black !important;
+  text-decoration: auto !important;
+}
+
+.table-bordered>:not(caption)>*>* {
+    padding: 14px 19px 10px 69px !important;
+}

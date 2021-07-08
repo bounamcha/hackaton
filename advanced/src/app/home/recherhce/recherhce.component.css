@@ -1,0 +1,28 @@
+button, input, optgroup, select, textarea {
+    width: 732px;
+}
+
+.table-bordered>:not(caption)>*>* {
+ padding: 5px 0 5px 38px;
+ background-color: #F0F8FF;
+}
+
+.menu-button {
+  color: black !important;
+  text-decoration: auto !important;
+}
+
+.active {
+  color: dodgerblue !important;
+}
+
+.tableau {
+  margin: 37px 833px 10px 365px;
+    border: 1px solid;
+}
+
+.tab {
+  border: 1px solid;
+
+}
+

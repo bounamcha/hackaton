@@ -1,0 +1,23 @@
+<div class="wrapper fadeInDown">
+  <form [formGroup]="auth" (ngSubmit)="connect()" id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="../../../assets/login.png" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <div>
+      <input type="text" id="login" class="fadeIn second" formControlName="username" placeholder="login">
+
+      <input type="text" id="password" class="fadeIn third" formControlName="password" placeholder="password">
+      <input type="submit" class="fadeIn fourth" [disabled]=" ! auth.valid" value="Log In">
+    </div>
+
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </form>
+</div>
